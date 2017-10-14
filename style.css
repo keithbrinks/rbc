@@ -1,9 +1,13 @@
 /**
  * Robinson Baptist Style Overrides
  * robinsonbaptist.org
+ * https://github.com/keithbrinks/rbc
  */
 html, body { height: 100%; }
 
+/**
+ * Base Typography
+ */
 h1,h2,h3,h4,h5,h6 { margin: 10px 0;   font-family: inherit;   font-weight: bold;   line-height: 20px;   color: #766a56;   text-rendering: optimizelegibility;}
 h1 {color: #766a56; line-height: 40px; font-size: 38.5px;}
 h2 {line-height: 40px; font-size: 31.5px; color: #766a56;}
@@ -19,14 +23,30 @@ hr { color: #766a56; margin: 20px 0;   border: 0;   border-top: 1px solid #eeeee
 h6 {color: #766a56; font-size: 1em; line-height: 1.4;font-weight: bold;}
 blockquote { font-family: georgia, serif; font-size: 18px; font-style: italic; }
 
-div#wrapper-body { clear: both; }
+/**
+ * Main Layout Structure
+ */
+body {
+  font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+  background-color:#efe5b2;
+  background-repeat:no-repeat;
+  background-image:url("http://media1.razorplanet.com/share/512824-9872/resources/1241050_finalbackground3.jpg");
+  background-size:1506px 1606px;
+  background-position:center top;
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+div#wrapper-body {
+  clear: both;
+}
 
 div#wrapper-shadow {
   width: 100%;
 }
 
-#header-wrapper {
-	padding: 10px 0 20px 0;
+div#wrapper-outer{
+	min-height: 100%;
 }
 
 div#wrapper{
@@ -43,35 +63,28 @@ div#content {
 
 div#secondary-global-top { background-color: #ffffff; }
 
-h3.side-menu-header {
-  display: none;
-}
-div#side-nav ul {
-  margin: 0;
-}
-
-div#side-nav li a {
-  display: block;
-  border-bottom: 1px solid #c0c0c0;
-  padding: 5px 0 10px;
+/**
+ * Site Header
+ */
+#header-wrapper {
+	padding: 10px 0 20px 0;
 }
 
-div#side-nav a:hover {
-  text-decoration: none;
-  color: #000000;
+div#wedge_logo{
+	margin: 0 auto;
+	width:960px;
 }
 
-div#side-nav li.current_menu_item > a {
-  color: #000000;
-}
-
-div.padding {
-  margin: 0 20px 20px;
+div#banner {
+  clear:both;
+  min-height:80px;
 }
 
 /**
  * Top Navigation Bar
  */
+
+/* Resets */
 .sf-menu { float: none; padding: 0; }
 .sf-menu li { height: auto; padding: 0; }
 .sf-menu a { padding: 0; }
@@ -81,6 +94,7 @@ div.padding {
 	background-color: transparent;
 }
 div#top-menu-element-1, div#top-menu-element-2 { display:none; }
+/* ---------- */
 
 div#top-menu {
 	width: 960px;
@@ -125,9 +139,35 @@ div#top-menu ul li li.sfHover > a {
 }
 
 /**
+ * Side Navigation Menu
+ */
+h3.side-menu-header {
+  display: none;
+}
+
+div#side-nav ul {
+  margin: 0;
+}
+
+div#side-nav li a {
+  display: block;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 5px 0 10px;
+}
+
+div#side-nav a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+div#side-nav li.current_menu_item > a {
+  color: #000000;
+}
+
+/**
  * Footer
  */
-div#footer-wrapper {margin-top:0px;}
+div#footer-wrapper {margin-top:0px;clear:both;overflow:hidden;}
 div#footer a:link {color: #817355;}
 div#footer a:visited {color: #817355;}
 div#footer a:hover {color: #817355;}
@@ -161,37 +201,8 @@ div.website-copyright{
 	text-align:right;
 }
 
-
-body {
-  font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
-	background-color:#efe5b2;
-	background-repeat:no-repeat;
-  background-image:url("http://media1.razorplanet.com/share/512824-9872/resources/1241050_finalbackground3.jpg");
-  background-size:1506px 1606px;
-  background-position:center top;
-  color: #5a5a5a;
-  font-size: 16px;
-}
-
-div#wrapper-outer{
-	min-height: 100%;
-}
-
-div#wedge_logo{
-	margin: 0 auto;
-	width:960px;
-}
-
-div#footer-wrapper{
-	clear:both;
-  overflow:hidden;
-}
-
-div#banner {
-  clear:both;
-  min-height:80px;
-}
-
-.wedge_logo_image_blank{
-	height:28px;
-}
+/**
+ * Utilities
+ */
+div.padding { margin: 0 20px 20px; }
+.wedge_logo_image_blank { height:28px; }
