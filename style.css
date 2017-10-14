@@ -1,0 +1,197 @@
+/**
+ * Robinson Baptist Style Overrides
+ * robinsonbaptist.org
+ */
+html, body { height: 100%; }
+
+h1,h2,h3,h4,h5,h6 { margin: 10px 0;   font-family: inherit;   font-weight: bold;   line-height: 20px;   color: #766a56;   text-rendering: optimizelegibility;}
+h1 {color: #766a56; line-height: 40px; font-size: 38.5px;}
+h2 {line-height: 40px; font-size: 31.5px; color: #766a56;}
+h3 {line-height: 40px; font-size: 24.5px; color: #766a56;}
+h4 {color: #786e5a; font-size: 17.5px;}
+h5 {font-size: 14px; color: #766a56;}
+h6 {font-size: 11.9px; color: #766a56;}
+a:link {color: #817355;}
+a:visited {color: #817355;}
+a:hover {color: #817355;}
+a:active {color: #817355;}
+hr { color: #766a56; margin: 20px 0;   border: 0;   border-top: 1px solid #eeeeee;   border-bottom: 1px solid #ffffff;}
+h6 {color: #766a56; font-size: 1em; line-height: 1.4;font-weight: bold;}
+blockquote { font-family: georgia, serif; font-size: 18px; font-style: italic; }
+
+div#wrapper-body { clear: both; }
+
+div#wrapper-shadow {
+  width: 100%;
+}
+
+#header-wrapper {
+	padding: 10px 0 20px 0;
+}
+
+div#wrapper{
+	clear:both;
+	background-color:#ffffff;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+div#content {
+	background-color: transparent;
+  color: #404040;
+}
+
+div#secondary-global-top { background-color: #ffffff; }
+
+h3.side-menu-header {
+  display: none;
+}
+div#side-nav ul {
+  margin: 0;
+}
+
+div#side-nav li a {
+  display: block;
+  border-bottom: 1px solid #c0c0c0;
+  padding: 5px 0 10px;
+}
+
+div#side-nav a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+div#side-nav li.current_menu_item > a {
+  color: #000000;
+}
+
+div.padding {
+  margin: 0 20px 20px;
+}
+
+/**
+ * Top Navigation Bar
+ */
+.sf-menu { float: none; padding: 0; }
+.sf-menu li { height: auto; padding: 0; }
+.sf-menu a { padding: 0; }
+.sf-arrows .sf-with-ul { padding: 0; }
+.sf-arrows .sf-with-ul:after { display: none; }
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background-color: transparent;
+}
+div#top-menu-element-1, div#top-menu-element-2 { display:none; }
+
+div#top-menu {
+	width: 960px;
+	margin: 0 auto;
+	height: 50px;
+	background-color: #73233c;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+div#top-menu-inner {
+	padding: 0 10px;
+}
+
+div#top-menu ul li a {
+	line-height: 50px;
+	padding: 0 10px;
+	color: #d5bdc4;
+	text-transform: uppercase;
+  font-size: 14px;
+}
+
+div#top-menu ul li a:hover,
+div#top-menu ul li.sfHover > a,
+div#top-menu ul li.current_menu_section > a {
+	color: #ffffff;
+}
+
+div#top-menu ul li ul {
+	background-color: #ffffff;
+	padding: 10px 0;
+}
+
+div#top-menu ul li li a {
+	color: #000000;
+	line-height: 2.5em;
+}
+
+div#top-menu ul li li a:hover,
+div#top-menu ul li li.sfHover > a {
+	color: #73233c;
+}
+
+/**
+ * Footer
+ */
+div#footer-wrapper {margin-top:0px;}
+div#footer a:link {color: #817355;}
+div#footer a:visited {color: #817355;}
+div#footer a:hover {color: #817355;}
+div#footer a:active {color: #817355;}
+div#brand-spacer { display: none; }
+div#brand {
+  border-top: 0;
+  font-size: 12px;
+  padding: 20px;
+}
+div#brand a:link,
+div#brand a:visited { color: #555; }
+
+div#brand-logo{
+	width:33%;
+	float:left;
+	text-align:left;
+}
+div.rp-copyright,
+div.website-copyright {
+  color: #adafb1;
+}
+div.rp-copyright {
+	width:33%;
+	float:left;
+	text-align:center;
+}
+div.website-copyright{
+	width:33%;
+	float:right;
+	text-align:right;
+}
+
+
+body {
+  font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	background-color:#efe5b2;
+	background-repeat:no-repeat;
+  background-image:url("http://media1.razorplanet.com/share/512824-9872/resources/1241050_finalbackground3.jpg");
+  background-size:1506px 1606px;
+  background-position:center top;
+  color: #5a5a5a;
+  font-size: 16px;
+}
+
+div#wrapper-outer{
+	min-height: 100%;
+}
+
+div#wedge_logo{
+	margin: 0 auto;
+	width:960px;
+}
+
+div#footer-wrapper{
+	clear:both;
+  overflow:hidden;
+}
+
+div#banner {
+  clear:both;
+  min-height:80px;
+}
+
+.wedge_logo_image_blank{
+	height:28px;
+}
