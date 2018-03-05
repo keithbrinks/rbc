@@ -206,3 +206,30 @@ div.website-copyright{
  */
 div.padding { margin: 0 20px 20px; }
 .wedge_logo_image_blank { height:28px; }
+
+/**
+ * Home Page Columns
+ */
+#wedge1.col {
+  background-color: #73233c;
+  color: #ffffff;
+}
+
+#wedge1.col h3 {
+  color: #ffffff;
+}
+
+#wedge1.col a {
+  display: block;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+  color: #ffffff;
+  text-align: center;
+  transition: all .2s;
+}
+
+#wedge1.col a:hover {
+  text-decoration: none;
+  color: #73233c;
+  background-color: #ffffff;
+}
